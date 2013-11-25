@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40E2EA54184385FB00E4AA47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E2EA53184385FB00E4AA47 /* UIKit.framework */; };
+		40E2EA56184385FB00E4AA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E2EA55184385FB00E4AA47 /* Foundation.framework */; };
+		40E2EA58184385FB00E4AA47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E2EA57184385FB00E4AA47 /* CoreGraphics.framework */; };
+		40E2EA5E184385FB00E4AA47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E2EA5C184385FB00E4AA47 /* InfoPlist.strings */; };
+		40E2EA60184385FB00E4AA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2EA5F184385FB00E4AA47 /* main.m */; };
+		40E2EA64184385FB00E4AA47 /* KVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2EA63184385FB00E4AA47 /* KVAppDelegate.m */; };
+		40E2EA66184385FB00E4AA47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E2EA65184385FB00E4AA47 /* Default.png */; };
+		40E2EA68184385FB00E4AA47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E2EA67184385FB00E4AA47 /* Default@2x.png */; };
+		40E2EA6A184385FB00E4AA47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E2EA69184385FB00E4AA47 /* Default-568h@2x.png */; };
+		40E2EA6D184385FB00E4AA47 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E2EA6B184385FB00E4AA47 /* MainStoryboard.storyboard */; };
+		40E2EA70184385FB00E4AA47 /* KVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2EA6F184385FB00E4AA47 /* KVViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40E2EA50184385FB00E4AA47 /* Maalaimalar_News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maalaimalar_News.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E2EA53184385FB00E4AA47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40E2EA55184385FB00E4AA47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40E2EA57184385FB00E4AA47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40E2EA5B184385FB00E4AA47 /* Maalaimalar_News-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maalaimalar_News-Info.plist"; sourceTree = "<group>"; };
+		40E2EA5D184385FB00E4AA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40E2EA5F184385FB00E4AA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40E2EA61184385FB00E4AA47 /* Maalaimalar_News-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maalaimalar_News-Prefix.pch"; sourceTree = "<group>"; };
+		40E2EA62184385FB00E4AA47 /* KVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVAppDelegate.h; sourceTree = "<group>"; };
+		40E2EA63184385FB00E4AA47 /* KVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVAppDelegate.m; sourceTree = "<group>"; };
+		40E2EA65184385FB00E4AA47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		40E2EA67184385FB00E4AA47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		40E2EA69184385FB00E4AA47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		40E2EA6C184385FB00E4AA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		40E2EA6E184385FB00E4AA47 /* KVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVViewController.h; sourceTree = "<group>"; };
+		40E2EA6F184385FB00E4AA47 /* KVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E2EA4D184385FB00E4AA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E2EA54184385FB00E4AA47 /* UIKit.framework in Frameworks */,
+				40E2EA56184385FB00E4AA47 /* Foundation.framework in Frameworks */,
+				40E2EA58184385FB00E4AA47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E2EA47184385FB00E4AA47 = {
+			isa = PBXGroup;
+			children = (
+				40E2EA59184385FB00E4AA47 /* Maalaimalar_News */,
+				40E2EA52184385FB00E4AA47 /* Frameworks */,
+				40E2EA51184385FB00E4AA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E2EA51184385FB00E4AA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E2EA50184385FB00E4AA47 /* Maalaimalar_News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E2EA52184385FB00E4AA47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40E2EA53184385FB00E4AA47 /* UIKit.framework */,
+				40E2EA55184385FB00E4AA47 /* Foundation.framework */,
+				40E2EA57184385FB00E4AA47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40E2EA59184385FB00E4AA47 /* Maalaimalar_News */ = {
+			isa = PBXGroup;
+			children = (
+				40E2EA62184385FB00E4AA47 /* KVAppDelegate.h */,
+				40E2EA63184385FB00E4AA47 /* KVAppDelegate.m */,
+				40E2EA6B184385FB00E4AA47 /* MainStoryboard.storyboard */,
+				40E2EA6E184385FB00E4AA47 /* KVViewController.h */,
+				40E2EA6F184385FB00E4AA47 /* KVViewController.m */,
+				40E2EA5A184385FB00E4AA47 /* Supporting Files */,
+			);
+			path = Maalaimalar_News;
+			sourceTree = "<group>";
+		};
+		40E2EA5A184385FB00E4AA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E2EA5B184385FB00E4AA47 /* Maalaimalar_News-Info.plist */,
+				40E2EA5C184385FB00E4AA47 /* InfoPlist.strings */,
+				40E2EA5F184385FB00E4AA47 /* main.m */,
+				40E2EA61184385FB00E4AA47 /* Maalaimalar_News-Prefix.pch */,
+				40E2EA65184385FB00E4AA47 /* Default.png */,
+				40E2EA67184385FB00E4AA47 /* Default@2x.png */,
+				40E2EA69184385FB00E4AA47 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E2EA4F184385FB00E4AA47 /* Maalaimalar_News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E2EA73184385FB00E4AA47 /* Build configuration list for PBXNativeTarget "Maalaimalar_News" */;
+			buildPhases = (
+				40E2EA4C184385FB00E4AA47 /* Sources */,
+				40E2EA4D184385FB00E4AA47 /* Frameworks */,
+				40E2EA4E184385FB00E4AA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maalaimalar_News;
+			productName = Maalaimalar_News;
+			productReference = 40E2EA50184385FB00E4AA47 /* Maalaimalar_News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E2EA48184385FB00E4AA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Venkat Thirumalai";
+			};
+			buildConfigurationList = 40E2EA4B184385FB00E4AA47 /* Build configuration list for PBXProject "Maalaimalar_News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40E2EA47184385FB00E4AA47;
+			productRefGroup = 40E2EA51184385FB00E4AA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E2EA4F184385FB00E4AA47 /* Maalaimalar_News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E2EA4E184385FB00E4AA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E2EA5E184385FB00E4AA47 /* InfoPlist.strings in Resources */,
+				40E2EA66184385FB00E4AA47 /* Default.png in Resources */,
+				40E2EA68184385FB00E4AA47 /* Default@2x.png in Resources */,
+				40E2EA6A184385FB00E4AA47 /* Default-568h@2x.png in Resources */,
+				40E2EA6D184385FB00E4AA47 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E2EA4C184385FB00E4AA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E2EA60184385FB00E4AA47 /* main.m in Sources */,
+				40E2EA64184385FB00E4AA47 /* KVAppDelegate.m in Sources */,
+				40E2EA70184385FB00E4AA47 /* KVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40E2EA5C184385FB00E4AA47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E2EA5D184385FB00E4AA47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40E2EA6B184385FB00E4AA47 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E2EA6C184385FB00E4AA47 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40E2EA71184385FB00E4AA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40E2EA72184385FB00E4AA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E2EA74184385FB00E4AA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maalaimalar_News/Maalaimalar_News-Prefix.pch";
+				INFOPLIST_FILE = "Maalaimalar_News/Maalaimalar_News-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40E2EA75184385FB00E4AA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maalaimalar_News/Maalaimalar_News-Prefix.pch";
+				INFOPLIST_FILE = "Maalaimalar_News/Maalaimalar_News-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E2EA4B184385FB00E4AA47 /* Build configuration list for PBXProject "Maalaimalar_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E2EA71184385FB00E4AA47 /* Debug */,
+				40E2EA72184385FB00E4AA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E2EA73184385FB00E4AA47 /* Build configuration list for PBXNativeTarget "Maalaimalar_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E2EA74184385FB00E4AA47 /* Debug */,
+				40E2EA75184385FB00E4AA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E2EA48184385FB00E4AA47 /* Project object */;
+}
